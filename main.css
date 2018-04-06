@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
    color: #333;
 }
