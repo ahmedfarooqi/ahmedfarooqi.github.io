@@ -26,7 +26,22 @@ p {
 	text-align: center;
 	
 }
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
 
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 100%;
+  max-width: 150px;
+}
 
 
 @media (max-width:768px){
