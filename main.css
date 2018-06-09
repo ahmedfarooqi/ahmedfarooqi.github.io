@@ -26,25 +26,15 @@ p {
 	text-align: center;
 	
 }
-#img_cont {
-  display: table;
-  width: 150px;
-/*	height:00px;*/
-  margin: 20px auto;
-}
 
-#img_cont a {
-  display: table-cell;
-  text-align: center;
-/*  width: 16%;*/
+.container{
+    text-align: center;
 }
-
-#img_cont img {
-  width: 100%;
-  max-width: 150px;
-  max-height: : 150px;
+.category{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
 }
-
 
 @media (max-width:768px){
 	h1 {
