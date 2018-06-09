@@ -28,14 +28,15 @@ p {
 }
 #img_cont {
   display: table;
-  width: 90%;
+  width: 550px;
+/*	height:00px;*/
   margin: 20px auto;
 }
 
 #img_cont a {
   display: table-cell;
   text-align: center;
-  width: 16%;
+/*  width: 16%;*/
 }
 
 #img_cont img {
