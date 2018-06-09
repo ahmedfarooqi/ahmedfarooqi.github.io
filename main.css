@@ -28,7 +28,7 @@ p {
 }
 #img_cont {
   display: table;
-  width: 550px;
+  width: 150px;
 /*	height:00px;*/
   margin: 20px auto;
 }
@@ -42,6 +42,7 @@ p {
 #img_cont img {
   width: 100%;
   max-width: 150px;
+  max-height: : 150px;
 }
 
 
