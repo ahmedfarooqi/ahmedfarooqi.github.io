@@ -20,11 +20,14 @@ p {
 }
 
 .center {
-    display: block;
+    display: square;
     margin-left: auto;
     margin-right: auto;
 	text-align: center;
+	
 }
+
+
 
 @media (max-width:768px){
 	h1 {
