@@ -26,7 +26,7 @@ BODY {overflow-x: hidden;}
 
 
 
-var trailLength = 8 // The length of trail (8 by default; put more for longer "tail")
+var trailLength = 50 // The length of trail (8 by default; put more for longer "tail")
 var path = "images/cursor.gif" // URL of your image
 
 var standardbody=(document.compatMode=="CSS1Compat")? document.documentElement : document.body //create reference to common "body" across doctypes
@@ -57,12 +57,12 @@ function trail() { // trailing function
 		storage[i] = storage[i-2]
 	}
 	d = 0 // reset for future use
-	var timer = setTimeout("trail()",10) // call recursively 
+	var timer = setTimeout("trail()",5) // call recursively 
 }
 function processEvent(e) { // catches and processes the mousemove event 
 	if (window.event) { // for IE
-		storage[0] = window.event.y+standardbody.scrollTop+10
-		storage[1] = window.event.x+standardbody.scrollLeft+10
+		storage[0] = window.event.y+standardbody.scrollTop+5
+		storage[1] = window.event.x+standardbody.scrollLeft+5
 	} else {
 		storage[0] = e.pageY+12
 		storage[1] = e.pageX+12
