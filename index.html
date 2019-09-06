@@ -39,12 +39,6 @@
    </script>
 
    <script>
-      /**
-      * Function that captures a click on an outbound link in Analytics.
-      * This function takes a valid URL string as an argument, and uses that URL string
-      * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-      * using 'navigator.sendBeacon' in browser that support it.
-      */
       var captureOutboundLink = function(url) {
          ga('send', 'event', 'outbound', 'click', url, {
          'transport': 'beacon',
@@ -125,7 +119,7 @@
                <div class="columns download">
                   <p>
                      <!-- <a href="https://drive.google.com/file/d/1TG463LygHeCszk4GZvWo2BQZe4X8JQbE/view?usp=sharing" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a> -->
-                     <a href="https://drive.google.com/file/d/1TG463LygHeCszk4GZvWo2BQZe4X8JQbE/view?usp=sharing" target="_blank" class="button"><i class="fa fa-download" onclick="captureOutboundLink('https://drive.google.com/file/d/1TG463LygHeCszk4GZvWo2BQZe4X8JQbE/view?usp=sharing'); return false;">Download Resume</a>
+                     <a href="https://drive.google.com/file/d/1TG463LygHeCszk4GZvWo2BQZe4X8JQbE/view?usp=sharing" target="_blank" class="button" onclick="captureOutboundLink('https://drive.google.com/file/d/1TG463LygHeCszk4GZvWo2BQZe4X8JQbE/view?usp=sharing'); return false;"><i class="fa fa-download"></i>>Download Resume</a>
                   </p>
                </div>
 			   </div>
